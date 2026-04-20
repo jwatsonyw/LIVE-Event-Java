@@ -1,0 +1,16 @@
+package lab3;
+
+import java.util.Scanner;
+
+public class WeightConverstions {
+
+	public static void main(String[] args) {
+		int weight = getInt("What is your weight in pounds?");
+		System.out.println(weight);
+	}
+	
+		
+	
+	
+
+}
