@@ -1,0 +1,26 @@
+package lab3;
+
+import java.util.Scanner;
+
+public class Canteen {
+
+	public static void main(String[] args) {
+		String mainCourse = getString("Which main dish would you like? Chicken, Fish or Vegitarian?");
+		System.out.println(mainCourse);
+	}
+
+	public static void main(String[] args) {
+		String potatoes = getString("How many potatoes would you like?");
+		System.out.println(potatoes);
+	}
+	
+	
+	public static String getString(String prompt) {
+		System.out.printf(prompt + ":");
+		Scanner s = new Scanner(System.in);
+		return s.nextLine();
+	}
+
+	
+	
+}
