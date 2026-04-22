@@ -1,6 +1,6 @@
-package lab8;
+package lab9;
 
-public class Exceptions {
+public class Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

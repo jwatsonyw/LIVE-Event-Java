@@ -29,7 +29,7 @@ public class World{
 		if(shape.shapeType == ShapeType.Oval) 
 		g.fillOval(shape.x, shape.y, shape.w, shape.h);
 		
-		else if (shape.ShapeType == ShapeType.Rectangle)
+		else if (shape.shapeType == ShapeType.Rectangle)
 		g.fillRect(shape.x, shape.y, shape.w, shape.h);
 		}
 	}
