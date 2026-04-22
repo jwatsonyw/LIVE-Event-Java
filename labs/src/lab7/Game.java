@@ -1,4 +1,4 @@
-package lab6;
+package lab7;
 
 
 import java.awt.Canvas;
@@ -55,7 +55,6 @@ public class Game extends Canvas {
         g.setColor(World.colour);
         g.fillRect(World.x, World.y, World.w, World.h);
         g.setColor(Color.blue);
-        
         world.draw(g);
         
     }
